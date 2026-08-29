@@ -1,0 +1,191 @@
+body {
+    background-color: #d9dbe8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.site {
+    width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+}
+.site h1 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    margin: 0;
+}
+.site > p:first-of-type {
+    font-size: 13px;
+    color: #45445a;
+    margin-top: 5px;
+}
+nav {
+    background-color: #e6e4f0;
+    border-top: 1px solid #afa8c2;
+    border-bottom: 1px solid #afa8c2;
+    padding: 8px;
+}
+nav a {
+    color: #1100ac;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.article {
+    padding: 10px 40px;
+}
+.article h1 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.date {
+    color: #656577;
+    font-size: 12px;
+    margin-top: -10px;
+}
+.article img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.prize-trap {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.prize-trap a {
+    color: #0000ee;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+.fake-bsod {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #0078d7;
+    color: white;
+
+    box-sizing: border-box;
+    padding: 8vw;
+
+    font-family: Arial, sans-serif;
+
+    z-index: 999999;
+}
+
+.bsod-face {
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+.bsod-title {
+    font-size: 32px;
+    max-width: 800px;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.bsod-text {
+    font-size: 18px;
+    max-width: 700px;
+    margin-bottom: 25px;
+}
+
+.bsod-percent {
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.bsod-error {
+    font-size: 16px;
+}
+.old-bsod {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #070087;
+    color: #ffffff;
+
+    box-sizing: border-box;
+    padding: 25px;
+
+    font-family: "Perfect DOS VGA 437",monospace;
+    font-size: 20px;
+    line-height: 1.25;
+
+    z-index: 999999;
+
+    overflow: hidden;
+}
+.prize-trap {
+    display: block;
+    clear: both;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.prize-trap a {
+    color: #0000ff;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+.prize-trap a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.site {
+    position: relative;
+}
+
+.fake-search {
+    position: absolute;
+    right: 8px;
+    top: 18px;
+}
+
+.search-icon {
+    font-size: 24px;
+    color: #333;
+    cursor: default;
+}
+
+.search-message {
+    display: none;
+
+    position: absolute;
+    right: 0;
+    top: 30px;
+
+    width: 190px;
+
+    padding: 8px;
+
+    background-color: white;
+    border: 1px solid #999;
+
+    color: #333;
+    font-size: 12px;
+    font-weight: normal;
+
+    z-index: 1000;
+}
+
+.fake-search:hover .search-message {
+    display: block;
+}
