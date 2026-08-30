@@ -185,7 +185,41 @@ nav a:hover {
 
     z-index: 1000;
 }
-
 .fake-search:hover .search-message {
     display: block;
 }
+.side-ads {
+    position: absolute;
+    top: 100px;
+    width: 180px;
+}
+
+.left-ads {
+    left: calc(50% - 710px);
+}
+
+.right-ads {
+    right: calc(50% - 710px);
+}
+
+.ad {
+    width: 180px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.ad img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.ad-title {
+    margin-top: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
